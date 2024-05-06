@@ -18,11 +18,10 @@
 package credentials
 
 import (
-	"os"
-	"path/filepath"
-
 	"github.com/myfstd/gminio/homedir"
 	"github.com/myfstd/gminio/ini"
+	"os"
+	"path/filepath"
 )
 
 // A FileAWSCredentials retrieves credentials from the current user's home

@@ -19,12 +19,11 @@ package credentials
 
 import (
 	"encoding/json"
+	"github.com/myfstd/gminio/homedir"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"runtime"
-
-	"github.com/myfstd/gminio/homedir"
 )
 
 // A FileMinioClient retrieves credentials from the current user's home
